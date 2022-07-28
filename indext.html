@@ -25,18 +25,26 @@
             left: 10%;
         }
 
-        /* .text-margin {
-            margin-bottom: 10%;
-            width: 40%;
-            font-weight: 700;
-            text-align: center;
-            margin-left: 10%;
-        } */
-       
 
             
-        
+       
+      
+        @media screen and (max-width: 480px) {
+  .grid{
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+
     </style>
+
+
+
+
 </head>
 
 <body>
@@ -80,14 +88,14 @@
             </div>
         </nav>
         <!-- Navbar End  -->
-   
-               <!-- Top Section started -->
+
+        <!-- Top Section started -->
         <section class="container">
             <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
 
                 <div class="carousel-inner">
                     <div class="carousel-item active md-w-75">
-                        <img class="img-fluid "  src="./images/cover/cover-1 (2).png" class="d-block w-100" alt="...">
+                        <img class="img-fluid " src="./images/cover/cover-1 (2).png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-sm-block d-md-block  text-margin ">
                             <h1 class="text-uppercase">get started digital learning</h1>
                             <p class="h6">It is a long established fact that a reader will be distracted by the readable
@@ -111,13 +119,13 @@
                 </button>
             </div>
         </section>
-       <!-- top seaction end -->
+        <!-- top seaction end -->
 
-       <br>
+        <br>
         <section class="text-center  sm-w-50 " style="margin-left: 10%;">
-             <h1 class="text-uppercase">Discover Our Popular
+            <h1 class="text-uppercase">Discover Our Popular
                 Courses </h1>
-               <span class="h4 w-50">  It is a long established fact that a reader
+            <span class="h4 w-50"> It is a long established fact that a reader
                 will be distracted by the readable content
                 of a page when looking at its layout</span>
         </section>
@@ -125,39 +133,55 @@
     </header>
 
     <!--============================================= End Header======================== -->
-       
-  <!-- started Main part  -->
-       <main class="container mt-5 mx-auto">
-        <div class="d-flex flex-column flex-sm-column flex-md-row align-items-center justify-content-evenly border border-light g-5">
-            <div class="flex-shrink-0">
-              <img class="" src="./images/course/course-1.png" alt="...">
+
+    <!-- started Main part  -->
+    <main class="container mt-5 mx-auto">
+        <section class="">
+            <div class="row row-cols-md-2 row-cols-sm-1  grid  ">
+                <div class="col ">
+                <div class="d-flex flex-column  flex-sm-column flex-md-row  align-items-center  border border-success p-0 mb-3">
+                    <div class="mx-auto ">
+                        <img class="img-fl"src="./images/course/course-1.png" alt="">
+                    </div>
+                    <div class="mx-5">
+                        <h1 class="fs-3">Fundamental Of UI/UX Design</h1>
+                        <p class="w">Some quick example text to build on the card title
+                            and make up the bulk of the card.</p>
+                        <span class="text-info fs-2 font-bold">Price : $20</span>
+                    </div>
+                </div>
             </div>
-            <div class="flex-grow-1 ms-3">
-                <h1>Fundamental Of UI/UX Design</h1>
-                <p class="">Some quick example text to build on the card title
-                   and make up the bulk of the card.</p>
-                   <span class="text-info fs-2 font-bold">Price : $20</span>
+           
+                <div class="col">
+                <div class="d-flex flex-column  flex-sm-column flex-md-row  align-items-center  border border-success p-0 mb-3">
+                    <div class="mx-auto ">
+                        <img class="img-fl"src="./images/course/course-1.png" alt="">
+                    </div>
+                    <div class="mx-5">
+                        <h1 class="fs-3">Fundamental Of UI/UX Design</h1>
+                        <p class="w">Some quick example text to build on the card title
+                            and make up the bulk of the card.</p>
+                        <span class="text-info fs-2 font-bold">Price : $20</span>
+                    </div>
+                </div>
             </div>
-            <div class="flex- sm-shrink-2">
-              <img src="./images/course/course-1.png" alt="...">
+           
+                
+              
             </div>
-            <div class="flex-sm-grow-1 ms-3">
-                <h1>Fundamental Of UI/UX Design</h1>
-                <p class="">Some quick example text to build on the card title
-                   and make up the bulk of the card.</p>
-                   <span class="text-info fs-2 font-bold">Price : $20</span>
-            </div>
-          </div>
-               
 
-
-        
-
-       </main>
+        </section>
 
 
 
-  <!-- End Main part  -->
+
+
+    </main>
+
+
+
+    <!-- End Main part  -->
+
 
 
 
